@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css media quries</title>
+    <style>
+            .p_box{ 
+                width: 200px;
+                height: 200px;
+                background-color: yellow;
+            }
+            .p_box2{ 
+                width: 200px;
+                height: 200px;
+                background-color: tomato;
+            }
+    
+
+
+
+
+
+        
+    @media  only screen and (max-width: 600px) {
+      body{
+    
+    background-color: red;
+    
+  } 
+  .p_box{ 
+                width: 400px;
+                height: 400px;
+                background-color: yellow;
+                display: none;
+                
+            }
+        
+    }
+    @media  only screen and (min-width: 601px)  {
+  body {
+    background-color:green;
+       }
+  
+    
+    .p_box2{ 
+            width: 400px;
+            height: 400px;
+            background-color:tomato; 
+            display: none;
+}
+}
+    </style>
+</head>
+<body>
+        <div class="p_box"> payal dhakad </div>  
+        <div class="p_box2"> media </div>  
+</body>
+</html>
